@@ -37,7 +37,7 @@ Numbering: `0x` = original, `1x` = modification of `0x`; within each series, too
 
 ```bash
 # fresh clone
-git clone --recursive https://github.com/karel-brinda/sshash-family-masked-superstrings
+git clone --recursive https://github.com/masked-superstrings/sshash-family
 git submodule update --init --recursive
 
 # sync a modification with its upstream (example: 14 ← jermp/sshash)

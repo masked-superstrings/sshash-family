@@ -16,7 +16,7 @@ v4 the first version with minimizer-position offsets (2025), and v6 the current,
 optimized one.
 
 ```bash
-git clone --recursive https://github.com/karel-brinda/sshash-family-masked-superstrings
+git clone --recursive https://github.com/masked-superstrings/sshash-family
 ```
 
 Benchmarks:
