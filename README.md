@@ -59,7 +59,7 @@ follows `12`, with k-mer ids added.
 
 A fork of [SSHash-Lite](https://github.com/jermp/sshash-lite) (C++; the membership-only version
 of SSHash) extended to index BiGreedy masked superstrings, as output by
-[KmerCamel](https://github.com/ondrejsladky/kmercamel), directly: the k-mer set is stored as one
+[KmerCamel](https://github.com/masked-superstrings/kmercamel), directly: the k-mer set is stored as one
 superstring instead of a set of strings, and membership queries answer exactly over the
 represented k-mers.
 
@@ -109,7 +109,7 @@ minimizer-position offsets, extended with the layout of `11`.
 ### 14_sshash-v6-bigreedy-ms
 
 A fork of [SSHash](https://github.com/jermp/sshash) (C++) extended to natively index BiGreedy
-masked superstrings, as output by [KmerCamel](https://github.com/ondrejsladky/kmercamel), while
+masked superstrings, as output by [KmerCamel](https://github.com/masked-superstrings/kmercamel), while
 keeping the full dictionary interface (lookup with unique k-mer ids, access, iteration,
 streaming and navigational queries).
 
